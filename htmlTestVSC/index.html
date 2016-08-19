@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Oreo Haven</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!— <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> —>
+  <script src="js/jquery-3.1.0.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+
+  
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/index.html">Rainbows and Unicorns</a>
+    </div>
+  
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Oreo</a></li>
+        <li><a href="#">Rainbow</a></li>
+                <li><a href="#">Unicorn</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Look Around!!</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="SignUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="SignIn.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </nav>
+
+<div class="container">
+  <div class = "jumbotron">
+    <h2>Midlife Crisis Confessions</h2>
+    <div>What to do when nothing else can be done?... Well of course, Have a few Oreos!!</div>
+    <br>
+    <div>Sign in to continue your journey of oreos and life!</div>
+    
+    <form action="" method="POST" role="form" class="form-horizontal">
+      <legend>Sign In</legend>
+    
+      <div class="form-group">
+        <label for="email" class="control-label col-md-2">Email:</label>
+        <div class="col-md-6">
+          <input type="email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+      </div>
+    
+      <div class="form-group">
+        <label for="pwd" class="control-label col-md-2">Password:</label>
+        <div class="col-md-6">
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+        </div>
+      </div>
+
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+      <div>Not one fo us yet? Sign up to get your free oreos for your BD!</div>
+      <a class = "btn btn-primary">Sign Up!</a>
+    </form>
+    
+  </div>
+
+  <div class="row">
+    <div class="col-xs-4">
+      <h4>Oreo</h4>
+      <ul class = "nav nav-tabs" role="tablist">
+        <li class = "active"> <a href="#Pros" role="tab" data-toggle="tab">Pros</a></li>
+        <li class = "active"> <a href="#Cons" role="tab" data-toggle="tab">Cons</a></li>
+      </ul>
+
+      <div class = "tab-content">
+        <div class="active tab-pane fade in" id="Pros">
+          <div>Let's be honest with eachother, we could go on for days!</div>
+        </div>
+        <div class="tab-pane fade" id="Cons">
+          <h4>This where we mention the bad Stuff about Oreos</h4>
+          <div>Since even thinking about something bad about Oreos is 
+            utter nonesense we're just gonna skip this all and get on with it.
+          <br><br>
+          </div>  
+          <button type="button" class="btn btn-danger">if you still think you have something to 
+          say click here and await the consequences</button>     
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <h4>Rainbow</h4>  
+      <div style="position:relative;">
+        <nav class = "navbar navbar-default navbar-static" role="navigation" id="spy">
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#scroll-Pros">Pros</a></li>
+              <li><a href="#scroll-Cons">Cons</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div data-target="#spy" data-spy="scroll" style="height:150px; overflow-y:scroll position:relative;">
+          <div id="scroll-Pros">Rainbows are pretty...What can I say? Well I have to say more so you can actually see this work! So here i am rambling about!! Still not enough! Maryam is here!! Let's not talk about the depth of the stipidity of this situation!! and yet again not wotking we have time no eed to worry!! but I hate this assignment at this very moment!!</div>
+          <div id="scroll-Cons">You would have to go through the rain first!!</div>
+      </div>
+    </div>
+    </div>
+    <div class="col-xs-4">
+      <h4>Unicorn</h4>  
+      This is hopeless...<br>Wish I had a Unicorn to brighten up my day!<br>Cause the code's sure as hell not working!
+    </div>
+  </div>
+
+  <!--I want to add a carousel here!! -->
+
+  
+  <div id="carousel-id" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+          <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+          <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+      </ol>
+      <div class="carousel-inner">
+          <div class="item">
+              <img  src="oreo.jpg">
+              <div class="container">
+                  <div class="carousel-caption">
+                      <h1>Oreos For Life</h1>
+                      <p>Hello there!! Come join our Oreo-loving comunity fo free!!</p>
+                      <p><a class="btn btn-lg btn-primary" href="SignUp.html" role="button">Sign up today</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="item">
+              <img src="rainbow.jpg">
+              <div class="container">
+                  <div class="carousel-caption">
+                      <h1>Nothing better than colours to fix a broken heart!</h1>
+                      <p>Psycologist say that colour can mend broken things!! All that feng shui and sh*t</p>
+                      <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="item active">
+              <img src="unicorn.jpg">
+              <div class="container">
+                  <div class="carousel-caption">
+                      <h1>Non-existant... In a loser's world!!</h1>
+                      <p>If you're cool, Which the fact that you're visiting this website confirms, You have a unicorn waiting somewhere to make you the
+                         richest person there is!</p>
+                      <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+  </div>
+  
+
+
+</div>
+</body>
+</html>
